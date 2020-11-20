@@ -93,7 +93,7 @@ body {
     border: 0px none transparent;
     border-radius: 0px;
     background-color: #331a5c;
-    background-image: url('/copy-site/assets/gradient-violet-bg.jpg');
+    background-image: url('./assets/gradient-violet-bg.jpg');
     background-position: 50% 50%;
     background-size: cover;
 }
@@ -163,22 +163,36 @@ body {
 }
 
 .featured {
-    max-width: 131.7vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: auto;
+ 
     padding-top: 12.07vh;
     padding-bottom: 12.07vh;
     padding-left: 50vh;
     padding-right: 50vh;
     background-color: #fff;
     box-sizing: border-box;
+    max-width: 94.40vh;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+        
 }
 
 .featured-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: auto;
     text-align: center;
     margin-bottom: 5.4vh;
     color: #434146;
     font-size: 2.6vh;
     line-height: 3.9vh;
     font-weight: 500;
+    width: 100vh;
     text-align: center;
 }
 
@@ -211,4 +225,24 @@ body {
 
 .logos-bottom img {
     margin: 4.3vh;
+}
+
+.yahoo-shameless-paid-promotion {
+    width: 100vh;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+.y-finance-container {
+    width: 50vh;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.75vh;
+    text-align: right;
+}
+.y-finance-text { 
+    color: #414854;
+    font-style: italic;
 }
