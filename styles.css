@@ -26,6 +26,16 @@ body {
     justify-content: space-between;
    
 }
+/* make header change color on scroll */
+
+
+.header {
+    transition: background 0.5s Ease;
+
+}
+
+
+
 .logo {
     width: 22.06vh;
     height: auto;
@@ -143,12 +153,32 @@ body {
     margin-top: 2vh;
     min-width: 23vh;
     padding: 0px 1.7vh;
-    /* float: none;
-    clear: both; */
+ 
     border-style: solid;
     border-width: .10vh;
     border-color: purple;
     border-radius: .32vh;
+    background-color: #fe9000;
+    color: #fff;
+    font-size: 1.97vh;
+    line-height: 4.82vh;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .14vh;
+    text-indent: .14vh;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background-clip: padding-box;
+}
+
+.kast-3 {
+    margin-top: 2vh;
+    min-width: 23vh;
+    padding: 0px 1.7vh;
+    border-style: solid;
+    border-width: .10vh;
+    border-radius: .32vh;
+    border-color: green;
     background-color: #fe9000;
     color: #fff;
     font-size: 1.97vh;
@@ -245,4 +275,46 @@ body {
 .y-finance-text { 
     color: #414854;
     font-style: italic;
+}
+
+.what-is-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 131.72vh;
+
+}
+
+.what-is-p-container {
+    text-align: center;
+    padding-left: 0vh;
+    max-width: 70.2vh;
+    margin-bottom: 3.29vh;
+    font-size: 2.19vh;
+    line-height: 3.73vh;
+    text-align: center;
+}
+
+.what-is-kast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 12.07vh;
+    padding-bottom: 12.07vh;
+    background-image: url('./assets/green-bg.jpg');
+    background-position: 0px 0px;
+    background-size: cover; 
+    color: #fff;
+}
+
+.header-text {
+    margin-bottom: 6.58vh;
+    color: #fff;
+    margin-top: 0vh;
+    font-size: 5.26vh;
+    line-height: 5.26vh;
+    font-weight: 500;
+    text-align: center;
 }
