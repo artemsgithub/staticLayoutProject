@@ -1,0 +1,214 @@
+body {
+    display: flex;
+    min-height: 100 vh;
+    flex-direction: column;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: none;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    width: 100%;
+    height: 8vh;
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.logo {
+    width: 22.06vh;
+    height: auto;
+    margin-top: 1.9vh;
+    margin-left: 0vh;
+    max-width: 100%;
+ 
+}
+
+.kast-1{
+    border-color: #fff;
+    color: white;
+    box-shadow: inset 0 0 0 .10vh transparent;
+    text-decoration: none;
+    width: 11.41vh;
+    height: 2.96vh;
+    margin-top: 2.85vh;
+    margin-left: 4.39vh;
+    padding: 0vh;
+    float: right;
+    border: .11vh solid white;
+    border-radius: .32vh;
+    font-size: 1.53vh;
+    line-height: 2.96vh;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: .16vh;
+    text-transform: uppercase;
+    background-color: transparent;
+    margin-bottom: 1.5vh;
+}
+
+.nav {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 60vh;
+    color: #fff;
+    position: relative;
+    float: right;
+}
+.nav a {
+    padding: 2.19px;
+    font-size: 1.8vh; 
+    font-weight: 420;
+    height: auto;
+    padding-top: .87vh;
+    padding-bottom: .87vh;
+    color: #fff; 
+    text-decoration: none;
+    margin: 2vh;
+    
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: auto;
+    min-height: auto;
+    margin-top: -8.78vh;
+    padding-top: 15.36vh;
+    padding-bottom: 12.07vh;
+    border: 0px none transparent;
+    border-radius: 0px;
+    background-color: #331a5c;
+    background-image: url('/copy-site/assets/gradient-violet-bg.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.content-holder {
+    max-width: 131vh;
+    margin-top: 2.19vh;
+    padding-right: 2.10vh;
+    padding-left: 2.19vh;
+}
+
+.centered-content {
+    max-width: 94.40vh;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.laptop {
+    width: 100%;
+    max-width: 66.9vh;
+    margin-bottom: 3.29VH;
+}
+
+.headline {
+    margin-top: 0vh;
+    margin-bottom: 3.29vh;
+    color: #fff;
+    font-size: 5.26vh;
+    line-height: 5.92vh;
+    font-weight: 500;
+    text-align: center;
+}
+
+.intro-text {
+    max-width: 61.47vh;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    color: #fff;
+    margin-bottom: 3.29vh;
+    font-size: 2.19vh;
+    line-height: 1.4;
+}
+
+.kast-2 {
+    margin-top: 2vh;
+    min-width: 23vh;
+    padding: 0px 1.7vh;
+    /* float: none;
+    clear: both; */
+    border-style: solid;
+    border-width: .10vh;
+    border-color: purple;
+    border-radius: .32vh;
+    background-color: #fe9000;
+    color: #fff;
+    font-size: 1.97vh;
+    line-height: 4.82vh;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .14vh;
+    text-indent: .14vh;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background-clip: padding-box;
+}
+
+.featured {
+    max-width: 131.7vh;
+    padding-top: 12.07vh;
+    padding-bottom: 12.07vh;
+    padding-left: 50vh;
+    padding-right: 50vh;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.featured-in {
+    text-align: center;
+    margin-bottom: 5.4vh;
+    color: #434146;
+    font-size: 2.6vh;
+    line-height: 3.9vh;
+    font-weight: 500;
+    text-align: center;
+}
+
+.logos-top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: stretch;
+
+    
+
+}
+
+.logos-top img {
+    margin: 4.3vh;
+}
+
+.logos-bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: stretch;
+    
+
+}
+
+.logos-bottom img {
+    margin: 4.3vh;
+}
